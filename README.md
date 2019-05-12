@@ -20,6 +20,9 @@ git config --list
 
 Some useful git commands:
 
+To generate ssh key:
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
 To initialize a git repository for your application (do this from within the application directory) ->
 
 git init
